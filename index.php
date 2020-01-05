@@ -26,13 +26,13 @@ foreach ($files as $key => $value) {
     <title>Otizen - verschlüsselte Notizen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-	<link rel="stylesheet" href="/assets/fonts/fontawesome/css/all.min.css">
-	<link rel="shortcut icon" href="/assets/img/logo-round.png" type="image/png">
+	<link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+	<link rel="shortcut icon" href="assets/img/logo-round.png" type="image/png">
 
 	<script>
 		const noteData = <?php echo json_encode($notes) ?>;
 	</script>
-	<link rel='stylesheet' href='/assets/css/main.min.css?v=1.0.0'>
+	<link rel='stylesheet' href='assets/css/main.css'>
 </head>
 
 <body>
@@ -52,8 +52,8 @@ foreach ($files as $key => $value) {
 	
 	<main></main>
 
-	<script src='/assets/js/lib.min.js?v=1.0.0'></script>
-	<script src='/assets/js/main.min.js?v=1.0.0'></script>
+	<script src='assets/js/lib.min.js?v=1.0.0'></script>
+	<script src='assets/js/main.js'></script>
 	
 </body>
 </html>
