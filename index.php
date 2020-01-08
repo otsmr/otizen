@@ -3,7 +3,7 @@ require_once __DIR__ . "/api/load.php";
 
 if(!$logged)  header("Location: $loginURL");
 
-$root = __DIR__ . "/notes/" . md5($userID);
+$root = __DIR__ . "/notes/" . $userID;
 
 $files = scandir($root);
 $notes = [];

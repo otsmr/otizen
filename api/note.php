@@ -13,7 +13,7 @@ function success($code = true){
 if(!$logged) error("Nicht angemeldet.");
 
 
-$root = __DIR__ . "/../notes/" . md5($userID);
+$root = __DIR__ . "/../notes/" . $userID;
 
 $data = (object) $_POST["data"];
 $noteID = (int) $data->id;
